@@ -1,0 +1,51 @@
+/* COMMON */
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+header {
+    height: 70px;
+    background-color: rgba(6, 19, 31, 1);
+}
+
+header img {
+    height: 40px;
+}
+
+/* MAIN */
+main {
+    background-color: rgba(29, 45, 60, 1);
+}
+
+.card {
+    background-color: rgba(17, 32, 48, 1);
+    color: white;
+    cursor: pointer;
+}
+
+/* BONUS */
+
+.hidden {
+    width: 95%;
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(17, 32, 48, 0.8);
+}
+
+.hidden i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden .card {
+    width: 30%;
+    
+}
